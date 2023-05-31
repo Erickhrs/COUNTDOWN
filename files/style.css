@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(to right, rgb(17, 17, 17), rgb(27, 27, 27));
+}
+
+#container {
+    box-shadow: 0px 0px 20px 0px;
+    width: 300px;
+    height: 220px;
+    background: rgb(20, 32, 46);
+    margin: 0 auto;
+    position: relative;
+    top: 90px;
+    border-radius: 12px;
+}
+
+#container p {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    left: 5px;
+    bottom: 2px;
+    color: aliceblue;
+}
+
+#container-display {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 50px;
+    background-color: rgb(124, 226, 77);
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 45px;
+    top: 10px;
+    cursor: pointer;
+    background-color: rgb(15, 34, 116);
+    font-size: 12px;
+    color: aliceblue;
+}
+
+#start,
+#pause,
+#stop {
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#cb {
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    display: none;
+}
+
+#start:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+
+#pause:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+
+#stop:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}

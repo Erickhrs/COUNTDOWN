@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTDOWN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <DIV id="container-display">
+            <P id="display">00:00:00</P>
+        </DIV>
+        <table>
+            <tr>
+                <td>
+                    <button class="buttons" id="1min">1 MIN</button>
+                    <button class="buttons"id="3min">3 MIN</button>
+                    <button class="buttons"id="5min">5 MIN</button>
+                    <button class="buttons"id="10min">10 MIN</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="buttons"id="20min">20 MIN</button>
+                    <button class="buttons"id="30min">30 MIN</button>
+                    <button class="buttons"id="1h">1HRS</button>
+                    <button class="buttons"id="2h">2HRS</button>
+                </td>
+            </tr>
+        </table>
+
+        <table id="cb">
+            <tr>
+                <td>
+                    <P id="start" onclick="start()">&#128994;</P>
+                    <p id="pause"  onclick="pause()">&#128993;</p>
+                    <p id="stop"  onclick="reset()">&#128308;</p>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
